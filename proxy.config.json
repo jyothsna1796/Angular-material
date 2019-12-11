@@ -1,0 +1,18 @@
+{
+    "/envelopes": {
+        "target": "https://demo.docusign.net/restapi/v2.1/accounts/9425318",
+        "secure": false,
+        "changeOrigin": true,
+        "pathRewrite": {
+        "^/envelopes": "/envelopes"
+        }
+    },
+    "/templates": {
+        "target": "https://demo.docusign.net/restapi/v2.1/accounts/9425318",
+        "secure": false,
+        "changeOrigin": true,
+        "pathRewrite": {
+        "^/templates": "/templates"
+        }
+    }
+}
